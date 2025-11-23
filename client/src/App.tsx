@@ -6,9 +6,7 @@ import useDictionaryQuery from './UseDictionary';
 import { Spinner } from './components/ui/spinner';
 
 
-interface Word{
-  word: string
-}
+
 
 function App() {
   const [word, setWord] = useState("")
